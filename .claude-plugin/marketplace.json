@@ -6,13 +6,12 @@
   },
   "metadata": {
     "description": "吠陀占星(Jyotish)分析插件市场。当前提供 vedic-astrology:十 skill 协同,从原生排盘到完整人生审计。",
-    "version": "1.0.0",
-    "pluginRoot": "./plugins"
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "vedic-astrology",
-      "source": "vedic-astrology",
+      "source": "./plugins/vedic-astrology",
       "description": "吠陀占星全流程:原生排盘(pysweph/PyJHora)或读盘提取 → structured_data.md → core/career/love/soul/timing/rectifier 六大解读引擎 + 两套回归 eval。需 Python 3.8~3.13。",
       "version": "1.2.0",
       "author": {
