@@ -1,0 +1,22 @@
+{
+  "skill": "love",
+  "house_lords": {
+    "5": "Mars",
+    "7": "Saturn"
+  },
+  "planet_sign": {
+    "Venus": 1
+  },
+  "dasha": [
+    {
+      "lord": "Rahu",
+      "start": "1989-01-01",
+      "years": 18
+    },
+    {
+      "lord": "Jupiter",
+      "start": "2007-01-01",
+      "years": 16
+    }
+  ]
+}

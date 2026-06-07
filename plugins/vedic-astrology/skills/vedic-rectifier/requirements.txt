@@ -1,0 +1,10 @@
+# vedic-rectifier 依赖
+# 安装: pip install -r requirements.txt --break-system-packages
+
+# 天文计算（time_scan.py 使用）
+# 不能省略，否则脚本启动即失败
+ephem>=4.1
+
+# 时区处理用 Python 3.9+ 的标准库 zoneinfo (无需 pip install)
+# 如果在 Python 3.8 或更低版本上跑，需要补装 backports.zoneinfo：
+# backports.zoneinfo>=0.2.1; python_version < "3.9"

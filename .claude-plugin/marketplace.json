@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "vedic-astro",
+  "owner": {
+    "name": "CNWU16"
+  },
+  "metadata": {
+    "description": "吠陀占星(Jyotish)分析插件市场。当前提供 vedic-astrology:十 skill 协同,从原生排盘到完整人生审计。",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "vedic-astrology",
+      "source": "vedic-astrology",
+      "description": "吠陀占星全流程:原生排盘(pysweph/PyJHora)或读盘提取 → structured_data.md → core/career/love/soul/timing/rectifier 六大解读引擎 + 两套回归 eval。需 Python 3.8~3.13。",
+      "version": "1.2.0",
+      "author": {
+        "name": "Ziao",
+        "url": "https://github.com/CNWU16/vedic-astro"
+      },
+      "homepage": "https://github.com/CNWU16/vedic-astro",
+      "license": "MIT",
+      "category": "astrology",
+      "keywords": ["vedic", "jyotish", "astrology", "kn-rao", "jaimini", "navamsa", "dasha"]
+    }
+  ]
+}

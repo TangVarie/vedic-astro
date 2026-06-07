@@ -1,0 +1,26 @@
+{
+  "skill": "core",
+  "ak": "Sun",
+  "d9_lagna": 9,
+  "house_lords": {
+    "1": "Moon",
+    "7": "Saturn",
+    "10": "Mars",
+    "9": "Jupiter"
+  },
+  "planet_dignity": {
+    "Saturn": "Own"
+  },
+  "dasha": [
+    {
+      "lord": "Rahu",
+      "start": "1989-01-01",
+      "years": 18
+    },
+    {
+      "lord": "Jupiter",
+      "start": "2007-01-01",
+      "years": 16
+    }
+  ]
+}

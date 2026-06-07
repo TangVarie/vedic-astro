@@ -1,0 +1,69 @@
+{
+  "chart_id": "example_template_1990",
+  "ak": "Sun",
+  "d9_lagna": 9,
+  "house_lords": {
+    "1": "Moon",
+    "2": "Sun",
+    "3": "Mercury",
+    "4": "Venus",
+    "5": "Mars",
+    "6": "Jupiter",
+    "7": "Saturn",
+    "8": "Saturn",
+    "9": "Jupiter",
+    "10": "Mars",
+    "11": "Venus",
+    "12": "Mercury"
+  },
+  "planet_sign": {
+    "Sun": 2,
+    "Moon": 11,
+    "Mars": 12,
+    "Mercury": 2,
+    "Jupiter": 3,
+    "Venus": 1,
+    "Saturn": 10
+  },
+  "planet_dignity": {
+    "Sun": "Other",
+    "Moon": "Other",
+    "Mars": "Other",
+    "Mercury": "Other",
+    "Jupiter": "Other",
+    "Venus": "Other",
+    "Saturn": "Own"
+  },
+  "dasha": [
+    {
+      "lord": "Rahu",
+      "start": "1989-01-01",
+      "years": 18
+    },
+    {
+      "lord": "Jupiter",
+      "start": "2007-01-01",
+      "years": 16
+    },
+    {
+      "lord": "Saturn",
+      "start": "2023-01-01",
+      "years": 19
+    },
+    {
+      "lord": "Mercury",
+      "start": "2042-01-01",
+      "years": 17
+    },
+    {
+      "lord": "Ketu",
+      "start": "2059-01-01",
+      "years": 7
+    },
+    {
+      "lord": "Venus",
+      "start": "2066-01-01",
+      "years": 20
+    }
+  ]
+}

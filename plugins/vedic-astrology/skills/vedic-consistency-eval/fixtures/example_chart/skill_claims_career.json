@@ -1,0 +1,27 @@
+{
+  "skill": "career",
+  "ak": "Sun",
+  "house_lords": {
+    "1": "Moon",
+    "10": "Saturn"
+  },
+  "planet_dignity": {
+    "Saturn": "Debilitated"
+  },
+  "dasha": [
+    {
+      "lord": "Rahu",
+      "start": "1989-01-01",
+      "years": 18
+    },
+    {
+      "lord": "Jupiter",
+      "start": "2007-01-01",
+      "years": 16
+    }
+  ],
+  "_injected_errors": [
+    "house_lords['10']=Saturn  应为 Mars（与 canonical + core 都矛盾）",
+    "planet_dignity['Saturn']=Debilitated  应为 Own"
+  ]
+}

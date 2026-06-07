@@ -1,0 +1,154 @@
+{
+  "chart_id": "example_template_1990",
+  "meta": {
+    "label": "EXAMPLE TEMPLATE — 非真人，仅用于演示。请用你 JHora 验证过的盘替换。",
+    "date": "1990-06-15",
+    "time_local": "08:30",
+    "tz_hours": 8.0,
+    "place": "Shanghai (template)",
+    "ayanamsa": "Lahiri",
+    "node_type": "mean",
+    "_generated_by": "swisseph (Moshier, Lahiri, mean node)"
+  },
+  "d1": {
+    "Sun": {
+      "sign": 2,
+      "deg_in_sign": 29.94,
+      "retrograde": false,
+      "nakshatra": 5,
+      "pada": 2
+    },
+    "Moon": {
+      "sign": 11,
+      "deg_in_sign": 15.27,
+      "retrograde": false,
+      "nakshatra": 24,
+      "pada": 3
+    },
+    "Mars": {
+      "sign": 12,
+      "deg_in_sign": 16.97,
+      "retrograde": false,
+      "nakshatra": 27,
+      "pada": 1
+    },
+    "Mercury": {
+      "sign": 2,
+      "deg_in_sign": 11.15,
+      "retrograde": false,
+      "nakshatra": 4,
+      "pada": 1
+    },
+    "Jupiter": {
+      "sign": 3,
+      "deg_in_sign": 22.06,
+      "retrograde": false,
+      "nakshatra": 7,
+      "pada": 1
+    },
+    "Venus": {
+      "sign": 1,
+      "deg_in_sign": 24.49,
+      "retrograde": false,
+      "nakshatra": 2,
+      "pada": 4
+    },
+    "Saturn": {
+      "sign": 10,
+      "deg_in_sign": 0.33,
+      "retrograde": true,
+      "nakshatra": 21,
+      "pada": 2
+    },
+    "Rahu": {
+      "sign": 10,
+      "deg_in_sign": 16.0,
+      "retrograde": true,
+      "nakshatra": 22,
+      "pada": 2
+    },
+    "Ketu": {
+      "sign": 4,
+      "deg_in_sign": 16.0,
+      "retrograde": true,
+      "nakshatra": 8,
+      "pada": 4
+    },
+    "Lagna": {
+      "sign": 4,
+      "deg_in_sign": 16.9
+    }
+  },
+  "d9": {
+    "Sun": 6,
+    "Moon": 11,
+    "Mars": 9,
+    "Mercury": 1,
+    "Jupiter": 1,
+    "Venus": 8,
+    "Saturn": 10,
+    "Rahu": 2,
+    "Ketu": 8,
+    "Lagna": 9
+  },
+  "chara_karaka": {
+    "scheme": "8K",
+    "ak": "Sun",
+    "order": [
+      "Sun",
+      "Venus",
+      "Jupiter",
+      "Mars",
+      "Moon",
+      "Rahu",
+      "Mercury",
+      "Saturn"
+    ]
+  },
+  "sav": [
+    28,
+    25,
+    30,
+    32,
+    22,
+    31,
+    24,
+    27,
+    29,
+    30,
+    31,
+    28
+  ],
+  "vimshottari": [
+    {
+      "lord": "Rahu",
+      "start": "1989-01-01",
+      "years": 18
+    },
+    {
+      "lord": "Jupiter",
+      "start": "2007-01-01",
+      "years": 16
+    },
+    {
+      "lord": "Saturn",
+      "start": "2023-01-01",
+      "years": 19
+    },
+    {
+      "lord": "Mercury",
+      "start": "2042-01-01",
+      "years": 17
+    },
+    {
+      "lord": "Ketu",
+      "start": "2059-01-01",
+      "years": 7
+    },
+    {
+      "lord": "Venus",
+      "start": "2066-01-01",
+      "years": 20
+    }
+  ]
+}

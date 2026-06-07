@@ -1,0 +1,5 @@
+# vedic-core 依赖
+# 安装: pip install -r requirements.txt --break-system-packages
+
+# report_builder.py 使用 markdown 渲染 HTML 报告
+markdown>=3.4

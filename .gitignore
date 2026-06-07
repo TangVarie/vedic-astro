@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# venv / build
+.venv/
+venv/
+*.egg-info/
+
+# IDE / OS junk (Windows + OneDrive)
+.idea/
+.vscode/
+Thumbs.db
+desktop.ini

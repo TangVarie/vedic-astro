@@ -1,0 +1,33 @@
+# Vedic Astrology Suite —— 合并依赖 (v1.1.0)
+# 安装(任选其一):
+#   pip install -r requirements.txt
+#   pip install -r requirements.txt --break-system-packages   # 系统 Python 报 externally-managed 时
+#
+# ⚠️ vedic-calculator 是全系统计算基座,所有 skill 的数据精度都依赖它。首次使用前务必装好下面这组。
+
+# ────────────────────────────────────────────────
+# vedic-calculator —— 原生排盘引擎 (最重的一组)
+# ⚠️ Python 必须 3.8 ~ 3.13。3.14 暂不支持 (pysweph C 扩展需预编译 wheel,目前只到 cp313)
+# ────────────────────────────────────────────────
+pysweph>=2.10      # Swiss Ephemeris,天文计算引擎
+dashaflow>=0.3     # 尊贵度 + Jaimini Karakas
+PyJHora>=4.8.0     # SAV/BAV + 分盘 + Shadbala 六力
+pytz>=2024.1       # 时区
+
+# ────────────────────────────────────────────────
+# vedic-core —— report_builder.py 渲染 HTML 报告
+# ────────────────────────────────────────────────
+markdown>=3.4
+
+# ────────────────────────────────────────────────
+# vedic-rectifier —— time_scan.py 天文扫描 (缺它脚本启动即失败)
+# ────────────────────────────────────────────────
+ephem>=4.1
+
+# ────────────────────────────────────────────────
+# 可选:部分导出脚本检测到 import pptx,用 PPTX 导出才需要
+# ────────────────────────────────────────────────
+python-pptx>=0.6
+
+# 时区:Python 3.9+ 用标准库 zoneinfo,无需 pip;3.8 及以下需补:
+# backports.zoneinfo>=0.2.1; python_version < "3.9"
