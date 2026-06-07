@@ -6,10 +6,10 @@
   "description": "吠陀占星(Jyotish)全流程分析套件,十 Skill 协同。两条数据入口产出统一契约 structured_data.md:vedic-reader(从 PDF/截图/文本提取,南北印图识别+数学校验)与 vedic-calculator(给出生信息原生排盘,基于 pysweph+dashaflow+PyJHora,是全系统计算基座)。六大解读引擎:vedic-core(KN Rao Parashari 核心审计,P1-P12+十大板块+Q&A)、vedic-career(D10 事业)、vedic-love(5/7 宫感情)、vedic-soul(Jaimini/SJC 灵魂层)、vedic-timing(Gochara/多 Dasha/Varshaphala,自带计算脚本)、vedic-rectifier(出生时间校准)。两套开发期回归评测:vedic-reader-eval(读盘准确率对标 JHora)、vedic-consistency-eval(跨 skill 事实一致性)。",
   "author": {
     "name": "Ziao",
-    "url": "https://github.com/CNWU16/vedic-astro"
+    "url": "https://github.com/TangVarie/vedic-astro"
   },
-  "homepage": "https://github.com/CNWU16/vedic-astro",
-  "repository": "https://github.com/CNWU16/vedic-astro",
+  "homepage": "https://github.com/TangVarie/vedic-astro",
+  "repository": "https://github.com/TangVarie/vedic-astro",
   "license": "MIT",
   "keywords": [
     "vedic-astrology",

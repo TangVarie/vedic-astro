@@ -32,7 +32,7 @@ git init
 git add .
 git commit -m "vedic-astro marketplace + vedic-astrology v1.2.0"
 git branch -M main
-git remote add origin git@github.com:CNWU16/vedic-astro.git   # ← 换成你的仓库
+git remote add origin git@github.com:TangVarie/vedic-astro.git   # ← 换成你的仓库
 git push -u origin main
 ```
 
@@ -44,13 +44,13 @@ git push -u origin main
 
 ```bash
 # 1) 添加市场(参数是你的仓库路径 owner/repo)
-claude plugin marketplace add CNWU16/vedic-astro     # ← 换成你 push 的仓库
+claude plugin marketplace add TangVarie/vedic-astro     # ← 换成你 push 的仓库
 
 # 2) 安装插件(参数是 插件名@市场名)
 claude plugin install vedic-astrology@vedic-astro
 ```
 
-也可在 Claude Code 会话里用斜杠命令:`/plugin marketplace add CNWU16/vedic-astro` 然后 `/plugin install vedic-astrology@vedic-astro`,或直接 `/plugin` 打开图形选择器。
+也可在 Claude Code 会话里用斜杠命令:`/plugin marketplace add TangVarie/vedic-astro` 然后 `/plugin install vedic-astrology@vedic-astro`,或直接 `/plugin` 打开图形选择器。
 
 安装后插件自动加载,10 个 skill 可触发,也可手动 `/vedic-core`、`/vedic-reader` 等调用。日后你 push 新版本(记得在 `plugin.json` 里 bump `version`),用户 `/plugin update vedic-astrology` 即可升级。
 

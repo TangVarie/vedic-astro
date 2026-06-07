@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "vedic-astro",
   "owner": {
-    "name": "CNWU16"
+    "name": "TangVarie"
   },
   "metadata": {
     "description": "吠陀占星(Jyotish)分析插件市场。当前提供 vedic-astrology:十 skill 协同,从原生排盘到完整人生审计。",
@@ -17,9 +17,9 @@
       "version": "1.2.0",
       "author": {
         "name": "Ziao",
-        "url": "https://github.com/CNWU16/vedic-astro"
+        "url": "https://github.com/TangVarie/vedic-astro"
       },
-      "homepage": "https://github.com/CNWU16/vedic-astro",
+      "homepage": "https://github.com/TangVarie/vedic-astro",
       "license": "MIT",
       "category": "astrology",
       "keywords": ["vedic", "jyotish", "astrology", "kn-rao", "jaimini", "navamsa", "dasha"]
